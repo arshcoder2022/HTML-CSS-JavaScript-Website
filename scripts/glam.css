@@ -1,0 +1,222 @@
+/* Assignment Name: This is a CSS file for my final project website: Absolute Glam
+Name: Arshiya Dharwadkar
+Course: CMP 244- 86152
+Professor: Michael Sidaras Tirrito
+Date: 12/17/2022
+*/
+
+* {box-sizing:border-box;}
+
+body {background-color:maroon;
+				
+				margin-left:auto; margin-right:0; 
+	
+			}	
+			
+			
+#wrapper{ margin-left:auto; margin-right:auto; width:80%; background-color: #F5B7B1; padding:2em;
+
+box-shadow: 5px 5px 5px #1E1E1E;}		
+
+
+header {background-image:url(../images/pink%20header.jpeg); 
+		 color:#00005D; font-size:150%; padding-bottom:10px; padding-right:10px; padding-top:10px; padding-left:155px;}
+		
+.content { height:5vh;  ; padding-left:8em; min-height:100px; font-family:"Times New Roman", "Georgia", "Arial"; 
+		font-size:20px;	text-align:center;
+		margin-top: 2em;
+	    margin-left: auto; margin-right: auto;
+		border-radius: 10px; padding:2px;
+		text-shadow: 1px 1px 0 #676767;  
+		}
+
+/*article.introduction2
+{
+    width: 95%;
+    float: left;
+} */
+article.decoration
+{
+    width:auto; /*45% */
+	border:0px;
+	background-color:#FADBD8;
+}	
+
+article img
+{
+	display:flex;
+	margin-left:auto%;
+	margin-right:auto;
+	border:5px solid #F39C12;
+	border-radius:35px;
+	box-shadow:3px 3px 3px 3px #F39C12, 7px 7px 7px 7px #F39C12, 10px 10px 10px 10px #F39C12);
+}
+
+ article img:hover
+{
+	transform:rotateX(90deg);
+	transform:rotateY(90deg);
+	transform:rotateZ(90deg);
+} 
+
+article img:hover
+{ transform: scale(1.5); } 
+
+article p
+
+{float: center;
+margin-left:auto;
+	margin-right:auto;
+padding-left:10px;
+	padding-right:10px;
+text-align: center;} 
+    
+article.cool
+{
+    
+    width:auto; /*45%*/ 
+	border:0px;
+	background-color:#FADBD8;
+}
+
+article img
+{
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+	border:5px solid aquamarine;
+	border-radius:35px;
+	box-shadow:3px 3px 3px 3px maroon, 7px 7px 7px 7px rgb(0, 30, 97), 10px 10px 10px 10px rgb(0, 80, 80);
+}
+
+article img: hover
+{ transform: scale(1.5); } 
+
+
+/* article.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation 
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+} 
+
+article img
+{
+	display:flex;
+	margin-left:10%;
+	margin-right:10%;
+	border:5px solid aquamarine;
+	border-radius:35px;
+	box-shadow:3px 3px 3px 3px maroon, 7px 7px 7px 7px rgb(0, 30, 97), 10px 10px 10px 10px rgb(0, 80, 80);
+}
+
+article img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) 
+} */
+
+
+
+#hero1 {height:500px;  background-image:url(../images/star1.webp); width: 100%; background-size: 100% 100%; background-repeat: no-repeat; margin-top:2em;}
+
+#hero2 {height:500px; background-image:url(../images/face2.jpeg); width: 100%; background-size: 100% 100%; background-repeat: no-repeat;}
+
+#hero3 {height:500px; background-image:url(../images/eyes6.jpeg); width: 100%; background-size: 100% 100%; background-repeat: no-repeat;}
+
+#hero4 {height:500px; background-image:url(../images/lips3.webp); width: 100%; background-size: 100% 100%; background-repeat: no-repeat;}
+
+/* #nam {float:center; margin:0 0 5px 5px;
+		border: 1px solid #00000; margin:auto;} */
+
+
+				
+nav a {font-family: "Bookman Old Style", "Times New Roman"; font-size:130%; font-weight:bold; text-decoration:none;}
+
+nav a { text-decoration:none; }
+
+nav {text-align:right; background-color:#F7DC6F; margin:0; padding-top:0.5em; padding-bottom:2em; padding-right:1em; top:0;
+		position:fixed; left:0; z-index:9999; width:100%; height:50px; }
+		
+nav ul {list-style-type:none; margin:0; padding-right:2em; font-size:0.5em;}
+
+nav li {display:inline; padding-left:2em;}
+
+nav a:link{color:#E67E22;}
+nav a:visited{color:#C68B15;}
+nav a:hover{color:#A26100;}		
+
+
+
+.onemain { float:left; width:32%; padding-left:2em; padding-right:2em; font-size:14px;}
+
+.halfmain {float:left; width:25%; padding-left:2em; padding-right:2em;}
+
+			
+h2 { font-family:"Times New Roman", sans-serif; font-size:140%; text-decoration:underline; font-weight:bold; text-align:center; color: #A52A2A;}
+
+h3 {font-family:"Times New Roman", sans-serif; font-size:140%; font-weight:bold; text-decoration:underline; color: #A52A2A; text-align:center; }
+
+h4 {font-family:"Times New Roman", sans-serif; font-size:140%; font-weight:bold; }
+
+p {font-family:"Bookman Old Style", "Times New Roman", sans-serif; font-size:135%; }	
+
+ul {font-family:"Bookman Old Style", "Times New Roman", sans-serif; font-size:125%; list-style-type:circle; }
+
+ol {font-family:"Bookman Old Style", "Times New Roman", sans-serif; font-size:115%; }
+
+details {
+  margin-left: 1.5em;
+  font-size: 12pt;
+  line-height: 120%;
+}
+
+details summary {
+  cursor: pointer;
+  font-size: 16pt;
+  line-height: 200%;
+  margin-left: -1.5em;
+}
+
+footer {text-align:center; font-style:italic; font-size:.80em;}
+
+		
+table {border:2px solid #E64322; margin-bottom:1em; min-width:400px; width:800px; border-collapse:collapse; margin:auto;}
+td, th {padding:0.5em; border:1px solid #E64322; font-size:120%;}
+tr:first-of-type{background-color:#E6C522;}
+caption {margin:1em; font-weight:bold; font-size:120%}
+
+
+form {display:flex; flex-flow:column nowrap;}
+input, datalist, textarea {margin-bottom:.5em; }		 
+
+	
+
+@media (min-width:600px) {
+	
+/*	nav li {display:inline-block; width:7em; padding:0.5em; border:none;}
+	nav ul {text-align:center;}
+	main {float:left; width:55%;}
+	footer{clear:both;}
+	*/
+	form {width:60%; max-width:40em; 
+	
+	display:grid; grid-gap:1em; grid-template-columns:9em 1fr; grid-template-rows:auto;}
+	
+	input[type="submit"] { grid-column: 2 / 3;
+                       width: 9em;} 
+					   
+	
+	
+}
+
+@media (min-width:1024px) {
+
+		nav li{display: block;}
+		nav ul {text-align:left;}
+		nav {float:left;}
+		#wrapper {width:80%; margin:auto; max-width:1200px;}
+		body {background-color:#F7DC6F;}
+		
+}
+		
